@@ -1,1 +1,0 @@
-curl -X POST https://maker.ifttt.com/trigger/OFFICE_OFF/with/key/coTxa-VDdBfUzIL3hfMCpN
