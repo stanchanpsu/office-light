@@ -4,9 +4,9 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #SingleInstance, force
 ^l::
- RUN curl -X POST https://maker.ifttt.com/trigger/OFFICE_ON/with/key/coTxa-VDdBfUzIL3hfMCpN
+    RUN curl -X POST https://maker.ifttt.com/trigger/OFFICE_ON/with/key/coTxa-VDdBfUzIL3hfMCpN
 Return
 
 ^SC027::
- RUN curl -X POST https://maker.ifttt.com/trigger/OFFICE_OFF/with/key/coTxa-VDdBfUzIL3hfMCpN
+    RUN curl -X POST https://maker.ifttt.com/trigger/OFFICE_OFF/with/key/coTxa-VDdBfUzIL3hfMCpN
 Return
