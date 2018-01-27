@@ -4,9 +4,9 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ^l::
- RUN C:\Users\Stanley Chan\Desktop\office-light-switch-with-keyboard\office-on.cmd
+ RUN C:\Users\Stanley Chan\Desktop\office-light-switch\office-on.cmd
 Return
 
 ^SC027::
- RUN C:\Users\Stanley Chan\Desktop\office-light-switch-with-keyboard\office-off.cmd
+ RUN C:\Users\Stanley Chan\Desktop\office-light-switch\office-off.cmd
 Return
